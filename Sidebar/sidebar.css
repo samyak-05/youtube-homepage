@@ -1,0 +1,39 @@
+.sidebar{
+    z-index: 200;
+    background-color: white;
+    
+    left: 0;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    width: 72px;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.side{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+
+
+}
+
+.side img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.side:hover{
+    opacity: 0.7;
+}
+
+.side div{
+    font-size: 11px;
+    cursor: pointer;
+}
+  
